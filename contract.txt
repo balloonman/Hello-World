@@ -1,0 +1,15 @@
+contract.txt - Contract for Lab 8
+Paul Kennedy, CSE 20212
+March 21, 2013
+
+Task 1 - 6 Points
+Complete lessons 1 through 6 in the lazyfoo SDL tutorials, which
+takes you up through sprite sheets.
+
+Task 2 - 14 Points
++2 Find sprites online to use for "villains" in the game.
++6 Figure out how to add those to the game map.
++6 Animate them in a basic walking motion.
+
+This one is challenging because the given tutorials don't go up
+through character animation.

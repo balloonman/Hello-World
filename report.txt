@@ -1,0 +1,18 @@
+report.txt - Report on Lab 8
+Paul Kennedy
+CSE 20212
+March 28, 2013
+
+The submission uses SDL to animate a character from a sprite sheet in
+a simple walking motion. SDL_Surfaces include a screen and a sprite sheet
+where the character art lives. An SDL_Rect clips[10] array stores the
+offset information for the 10 frames used in the animation. They were found
+by manually measuring the height and width of each frame on the sheet, then
+using those parameters to iterate over the 10 necessary frames and give them
+the appropriate offsets.
+
+A Character class stores abstract information about the "character" being
+animated such as its velocity, its current frame (0-9), and its offSet on the
+x axis (since the animation only runs side to side). A default constructor
+gives the character an arbitrary initial velocity to demonstrate motion and sets
+offSet and frame to 0. The Character::move() method 
